@@ -41,7 +41,7 @@ resources:
 - name: exam-app
   type: git
   source:
-      uri: git@github.com:PGR301-2018/exam-app.git
+      uri: git@github.com:anonexam/exam-app.git
       branch: master
       private_key: ((deploy_key_app))
 
@@ -49,6 +49,6 @@ resources:
 - name: exam-infra
   type: git
   source:
-      uri: git@github.com:PGR301-2018/exam-infra.git
+      uri: git@github.com:anonexam/exam-infra.git
       branch: master
       private_key: ((deploy_key_infra))
