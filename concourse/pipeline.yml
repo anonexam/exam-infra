@@ -17,7 +17,7 @@ jobs:
       heroku_api_token: ((heroku_api_key))
 
 
-- name: infra
+- name: exam-infra
   plan:
   - aggregate:
     - get: exam-infra
