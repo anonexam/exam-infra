@@ -1,5 +1,5 @@
 variable "app_prefix" {
-  default = "pgr301"
+  default = "exam"
 }
 
 variable "pipeline_name" {
